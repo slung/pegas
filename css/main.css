@@ -1,0 +1,47 @@
+body
+{
+	background-color: #3F6B4A;
+}
+
+.page
+{
+	width: 1000px;
+	height: 480px;
+	vertical-align: middle;
+	margin: 0 auto;
+	border: 1px solid #969696;
+	background-color: black;
+}
+
+#slides
+{
+	width: 1000px;
+	height: 639px;
+	position: relative;
+}
+
+.slides_container div 
+{
+    width: 1000px;
+    height: 639px;
+    display: block;
+}
+
+.caption {
+	z-index:500;
+	position:absolute;
+	bottom:-35px;
+	left:0;
+	height: 20px;
+	padding-top: 13px;
+	padding-left: 13px;
+	background:#000;
+	background:rgba(0,0,0,.5);
+	width:100%;
+	font-size:14px;
+	line-height:1.33;
+	color:#fff;
+	border-top:1px solid #000;
+	text-shadow:none;
+}
+
