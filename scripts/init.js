@@ -21,4 +21,31 @@ function init()
 			// },200);
 		// }
 	});
+};
+
+function selectMenuItem( item )
+{
+	switch (item)
+	{
+		case 'home':
+		{
+			$(".menu").css("background-position", "0 -640px");
+			break;
+		}
+		case 'models':
+		{
+			$(".menu").css("background-position", "0 -1279px");
+			break;
+		}
+		case 'gallery':
+		{
+			$(".menu").css("background-position", "0 -1918px");
+			break;
+		}
+		case 'buy':
+		{
+			$(".menu").css("background-position", "0 -2557px");
+			break;
+		}
+	}
 }

@@ -1,0 +1,2 @@
+color: CFB6C5
+font-family: Segoe UI Semibold
