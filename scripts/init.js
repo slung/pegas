@@ -29,22 +29,26 @@ function selectMenuItem( item )
 	{
 		case 'home':
 		{
-			$(".menu").css("background-position", "0 -640px");
+			$(".menu").css("background-position", "0px 0");
+			//document.location.href = "index.html"
 			break;
 		}
 		case 'models':
 		{
-			$(".menu").css("background-position", "0 -1279px");
+			$(".menu").css("background-position", "723px 0");
+			//document.location.href = "models.html"
 			break;
 		}
 		case 'gallery':
 		{
-			$(".menu").css("background-position", "0 -1918px");
+			$(".menu").css("background-position", "482px 0");
+			//document.location.href = "gallery.html"
 			break;
 		}
 		case 'buy':
 		{
-			$(".menu").css("background-position", "0 -2557px");
+			$(".menu").css("background-position", "241px 0");
+			//document.location.href = "buy.html"
 			break;
 		}
 	}
