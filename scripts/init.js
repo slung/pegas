@@ -5,6 +5,8 @@ function init()
 		play: 3000,
 		bigTarget: true,
 		generatePagination: false,
+		generateNextPrev: true,
+		crossfade: true,
 		// animationStart: function(current){
 			// $('.caption').animate({
 				// bottom: 0
